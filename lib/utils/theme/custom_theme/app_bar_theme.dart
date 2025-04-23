@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class TAppBarTheme{
   TAppBarTheme._();
-  static const lightAppBarTheme =AppBarTheme(
+  static const lightAppBarTheme = AppBarTheme(
     elevation: 0.0,
     centerTitle: false,
     scrolledUnderElevation: 0,

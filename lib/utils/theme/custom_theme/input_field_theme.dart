@@ -48,11 +48,13 @@ class TTextInputFieldTheme{
       borderRadius: BorderRadius.circular(14),
       borderSide: BorderSide(width: 1,color: Colors.grey)
       ),
+      
       enabledBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
       borderSide: BorderSide(width: 1,color: Colors.grey)
       ),
-        focusedBorder: const OutlineInputBorder().copyWith(
+
+      focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
       borderSide: BorderSide(width: 1,color: Colors.white)
       ),
@@ -60,6 +62,7 @@ class TTextInputFieldTheme{
       borderRadius: BorderRadius.circular(14),
       borderSide: BorderSide(width: 1,color: Colors.red)
       ),
+
       focusedErrorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
       borderSide: BorderSide(width: 2,color: Colors.orange)
